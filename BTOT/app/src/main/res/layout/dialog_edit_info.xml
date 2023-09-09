@@ -1,0 +1,62 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:backgroundTint="@null"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:id="@+id/maSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ma san pham:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/maSped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter information"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ma san pham da ton tai !!!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten san pham:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tenSPed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter information"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/donGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don gia:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/donGiaed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter information"
+        android:inputType="text" />
+
+</LinearLayout>
